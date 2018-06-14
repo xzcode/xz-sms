@@ -1,4 +1,4 @@
-package com.sourcemuch.commons.sms.core.config;
+package com.xzcode.sms.ronglian.core.config;
 
 public class RongLianSMSConfig {
 	

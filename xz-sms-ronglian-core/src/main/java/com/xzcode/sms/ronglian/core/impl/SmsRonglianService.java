@@ -1,15 +1,15 @@
-package com.sourcemuch.commons.sms.core.impl;
+package com.xzcode.sms.ronglian.core.impl;
 
 import java.util.Map;
 
 import javax.annotation.Resource;
 
 import com.cloopen.rest.sdk.CCPRestSmsSDK;
-import com.sourcemuch.commons.sms.core.ISmsService;
-import com.sourcemuch.commons.sms.core.config.RongLianSMSConfig;
+import com.xzcode.sms.ronglian.core.ISmsRonglianService;
+import com.xzcode.sms.ronglian.core.config.RongLianSMSConfig;
 
 
-public class SmsService implements ISmsService{
+public class SmsRonglianService implements ISmsRonglianService{
 	
 	@Resource
 	private RongLianSMSConfig rongLianSMSConfig;
@@ -27,6 +27,7 @@ public class SmsService implements ISmsService{
 	public void setRestAPI(CCPRestSmsSDK restAPI) {
 		this.restAPI = restAPI;
 	}
+	
 	public CCPRestSmsSDK getRestAPI() {
 		return restAPI;
 	}

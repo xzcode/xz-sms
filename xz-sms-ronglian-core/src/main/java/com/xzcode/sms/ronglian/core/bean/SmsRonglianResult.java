@@ -1,11 +1,11 @@
-package com.sourcemuch.commons.sms.core.bean;
+package com.xzcode.sms.ronglian.core.bean;
 
 /**
  * 容联信息返回数据
  * @author wulizhou
  *
  */
-public class SmsResult {
+public class SmsRonglianResult {
 	
 	public final static String STATUS_CODE = "statusCode";
 	

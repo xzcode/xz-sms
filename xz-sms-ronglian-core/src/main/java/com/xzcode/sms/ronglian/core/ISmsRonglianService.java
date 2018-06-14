@@ -1,10 +1,10 @@
-package com.sourcemuch.commons.sms.core;
+package com.xzcode.sms.ronglian.core;
 
 import java.util.Map;
 
 import com.cloopen.rest.sdk.CCPRestSmsSDK;
 
-public interface ISmsService {
+public interface ISmsRonglianService {
 	/**
 	 * 发送信息
 	 */
