@@ -1,4 +1,4 @@
 
-rootProject.name = "${group}-sms"
-include ":${group}-sms-ronglian-core"
-include ":${group}-sms-ronglian-autoconfig"
+rootProject.name = "xz-sms"
+include ":${rootProject.name}-ronglian-core"
+include ":${rootProject.name}-ronglian-autoconfig"
