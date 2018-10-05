@@ -19,8 +19,8 @@ dependencies {
 	compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
 	
 	//阿里云短信相关sdk
-	compile group: 'com.aliyun', name: 'aliyun-java-sdk-dysmsapi', version: '1.1.0'
-	compile group: 'com.aliyun', name: 'aliyun-java-sdk-core', version: '4.0.2'
+	//compile group: 'com.aliyun', name: 'aliyun-java-sdk-dysmsapi', version: '1.1.0'
+	//compile group: 'com.aliyun', name: 'aliyun-java-sdk-core', version: '4.0.2'
 	
 	
 	
