@@ -15,7 +15,7 @@ import com.xzcode.sms.ronglian.core.impl.SmsRonglianService;
 @ConditionalOnMissingBean({ISmsRonglianService.class})
 public class SmsRonglianAutoConfig {
 	
-	protected static final String PROP_PREFIX = "xzcode.sms";
+	protected static final String PROP_PREFIX = "xz.sms.ronglian";
 
 	@Bean
 	public ISmsRonglianService smsRonglianService() {
